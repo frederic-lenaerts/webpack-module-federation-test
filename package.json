@@ -1,4 +1,13 @@
 {
-    "private": true,
-    "workspaces": ["module-a", "module-b", "root"]
+  "private": true,
+  "workspaces": [
+    "module-a",
+    "module-b",
+    "root"
+  ],
+  "scripts": {
+    "start-module-a": "cd module-a && yarn build && npx serve dist -l 5001",
+    "start-module-b": "cd module-b && yarn build && npx serve dist -l 5002",
+    "start-root": "cd root && yarn build && npx serve dist -l 5000"
   }
+}
