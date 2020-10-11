@@ -9,7 +9,7 @@ yarn start-module-a
 yarn start-module-b
 ```
 
-Wait for the build to complete and het http-server to start.  
+Wait for the build to complete and the http-server to start.  
 Then execute following command in the final window:
 
 ```bash
